@@ -2,7 +2,7 @@ import csv
 
 
 game_type = dict() #запрос юзера
-answer_ = list() #ответ по запросу
+answer = list() #ответ по запросу
 with open('steam.csv', mode='r', encoding = 'utf-8-sig') as file:
     for parameter in file.readline().rstrip('\n').split(','): 
         answer.append(parameter)
